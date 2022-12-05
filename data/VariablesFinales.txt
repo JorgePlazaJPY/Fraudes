@@ -1,0 +1,27 @@
+step: unidad de tiempo, 1 = 1 hora
+type: tipo (operación monetaria)
+amount: cantidad (€)
+gender: género (informado por el cliente)
+device: tipo del dispositivo que inicio la transacción
+connection_time: segundos que tardan en llegar los datos desde la conexión entrante
+nameOrig: identificador del cliente que inicia la transacción (id)
+race: raza
+oldbalanceOrg: saldo antes de la transacción
+age: edad estimada
+newbalanceOrig: saldo después
+nameDest: receptor de la transacción (id)
+user_connections: conexiones del mismo usuario ese día
+security_alert: si existía una alerta de seguridad ese día emitida por las autoridades
+oldbalanceDest: balance inicial del destinatario
+newbalanceDest: balance final del destinatario
+zone: lugar inferida del origen de la transacción
+user_number: usuarios concurrentes en la web en el momento de hacer la transacción
+isFraud: etiqueda de fraude verificada
+
+OJO, que hay números que tienen decimales con coma y otros con punto
+
+regulacion
+https://ec.europa.eu/commission/presscorner/detail/es/qanda_21_1683
+
+EDAS 
+https://www.kaggle.com/code/netzone/eda-and-fraud-detection
